@@ -6,6 +6,13 @@
 body{
     background-color: #36AAF5;
 }
+h2{
+    font-family: 'Courgette', cursive;
+}
+p{
+font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+}
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:  1fr 1fr 1fr 1fr;
@@ -47,12 +54,12 @@ body{
 @media(max-width: 991px){
     .container {  
         display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 1px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 1px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
         "section-2"
         "section-1"
         "section-4"
@@ -71,7 +78,7 @@ body{
     .section3 { grid-area: section3; 
         font-size: 2rem;
         text-align: center;
-        padding: 10px
+        padding: 10px;
     }
     
     .section4 { grid-area: section4; }
@@ -169,12 +176,12 @@ grid-template-areas:
     margin: 0 auto;
 }
 .container3 {  display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-auto-columns: 1fr;
-gap: 1px 0px;
-grid-auto-flow: row;
-grid-template-areas:
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 1px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
     "Section-1 section-2"
     "Section-1 section-2";
 }
@@ -209,12 +216,12 @@ grid-template-areas:
     height: 613px;
 }
 .container4 {  display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-auto-columns: 1fr;
-gap: 1px 0px;
-grid-auto-flow: row;
-grid-template-areas:
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 1px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
     "section1 section2 section3"
     "section4 section5 section6";
     text-align: center;
