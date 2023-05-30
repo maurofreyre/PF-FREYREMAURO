@@ -1,0 +1,55 @@
+header{
+    background-color: $colorencabezado;
+    .perfil{
+        width: 70px;
+        border-radius: 50%;
+    }
+    .container-fluid{
+        display: flex;
+        background-color: $colorencabezado;
+        text-align: center;
+        justify-content: space-between;
+        .navbar{
+            list-style-type: none;
+            .nav-item{
+                color: $colorletra;
+                padding: 0.7rem;
+                font-weight: bold;
+            }
+        }
+        
+    }
+}
+.footermenu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    .footeritem{
+        padding: 20px;
+    }
+    .footeritem2{
+        text-decoration: none;
+        color: black;
+    }
+    .logogmail{
+        width: 30px;
+        border-radius: 20%;
+    }
+    .logoinstagram{
+        width: 30px;
+        border-radius: 20%; 
+    }
+    .logowhatsapp{
+        width: 30px;
+        border-radius: 20%;
+    }
+    .logoubicacion{
+        width: 20px;
+        border-radius: 20%;
+    }
+}
+.barranavegacion{
+background-color: $colorencabezado;
+}

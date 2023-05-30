@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $colorfondo;
+    h1{
+        font-family: 'Courgette', cursive;
+        color: $colorletratitulo;
+        font-size: 4rem;
+    }
+    h2{
+        font-family: 'Courgette', cursive;
+        color: $colorletratitulo;
+        font-size: 4rem;
+    }
+    p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: black;
+    }
+}
+img{
+    justify-content: center;
+}
