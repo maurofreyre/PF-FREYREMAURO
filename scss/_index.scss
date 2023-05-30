@@ -14,3 +14,10 @@
         height: 100%;
     }
 }
+.video{
+    transition: all 1s;
+}
+.video:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 10%;
+}
