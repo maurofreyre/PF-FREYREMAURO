@@ -8,18 +8,18 @@ body {
   body h1 {
     font-family: 'Courgette', cursive;
     color: #049DD9;
-    font-size: 4rem; }
+    font-size: 3rem; }
   body h2 {
     font-family: 'Courgette', cursive;
     color: #049DD9;
-    font-size: 4rem; }
+    font-size: 3rem; }
   body h3 {
     font-family: 'Courgette', cursive;
     color: #049DD9;
     font-size: 3rem; }
   body p {
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black; }
 
 img {
